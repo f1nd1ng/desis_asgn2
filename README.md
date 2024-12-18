@@ -46,10 +46,49 @@ It supports public broadcasts, private messaging, and group messaging. The serve
 
 1.Build the server:
     
-    g++ -std=c++11 -pthread chat_server.cpp -o chat_server
+       g++ -std=c++11 -pthread server.cpp -o server
 
 2.Run the server:
 
-    ./chat_server
+       ./server
 
+3. Build the client1:
+
+       g++ -std=c++11 -pthread client1.cpp -o client2
+   
+4. Run the client1:
+   
+       ./client1
+
+5. Build the client2:
+
+       g++ -std=c++11 -pthread client1.cpp -o client2
+   
+6. Run the client2:
+   
+       ./client1
+
+7. Build the client3:
+
+       g++ -std=c++11 -pthread client1.cpp -o client2
+   
+8. Run the client3:
+   
+       ./client1
+
+9. Build the client4:
+
+       g++ -std=c++11 -pthread client1.cpp -o client2
+   
+10. Run the client4:
+   
+        ./client1
+
+11. Build the client5:
+
+        g++ -std=c++11 -pthread client1.cpp -o client2
+   
+12. Run the client5:
+   
+        ./client1
 
